@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#26ade0"
+    android:background="#FECEAB"
     android:paddingBottom="16dp"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
@@ -16,7 +16,7 @@
         android:id="@+id/askbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#3F51B5"
+        android:background="#2A363B"
         android:text="Ask"
         android:textColor="#ffffff"
         android:layout_alignParentBottom="true"
@@ -31,8 +31,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Make everyday decisions easier!"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#2A363B"
+        android:textColor="#fff"
+        />
 
     <ImageView
         android:id="@+id/image_eightBall"
